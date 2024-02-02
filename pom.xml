@@ -84,6 +84,11 @@
       <artifactId>camel-test-spring-junit5</artifactId>
       <scope>test</scope>
     </dependency>
+    <!-- Open Api-->
+    <dependency>
+      <groupId>org.apache.camel.springboot</groupId>
+      <artifactId>camel-openapi-java-starter</artifactId>
+    </dependency>
   </dependencies>
 
   <build>

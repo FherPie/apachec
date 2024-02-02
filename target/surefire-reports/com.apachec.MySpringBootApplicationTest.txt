@@ -1,4 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: com.apachec.MySpringBootApplicationTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 11.117 s - in com.apachec.MySpringBootApplicationTest
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 6.937 s <<< FAILURE! - in com.apachec.MySpringBootApplicationTest
+com.apachec.MySpringBootApplicationTest.test  Time elapsed: 0.916 s  <<< ERROR!
+org.apache.camel.FailedToStartRouteException: Failed to start route route1 because of null
+Caused by: org.apache.camel.NoSuchBeanException: No bean could be found in the registry for: servlet of type: org.apache.camel.spi.RestApiConsumerFactory
+
